@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="df6e2f97-cdcd-46b8-8e6f-289c40465ba4" name="Default Changelist" comment="Alteração da exibição da listagem de todos usuários e de um usuário">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/promobit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promobit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +102,11 @@
       <path value="$PROJECT_DIR$/vendor/nelmio/cors-bundle" />
       <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
       <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/mongodb-odm-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/mongodb-odm" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/mongodb/mongodb" />
+      <path value="$PROJECT_DIR$/vendor/jean85/pretty-package-versions" />
     </include_path>
   </component>
   <component name="ProjectId" id="1greeKYt877LFxb4nJ9M8k46OWF" />
@@ -172,7 +175,7 @@
       <workItem from="1600688759929" duration="21158000" />
       <workItem from="1600774832870" duration="10133000" />
       <workItem from="1600864190496" duration="4174000" />
-      <workItem from="1600946082037" duration="4271000" />
+      <workItem from="1600946082037" duration="5367000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração do logout">
       <created>1599133110525</created>

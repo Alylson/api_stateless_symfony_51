@@ -69,6 +69,23 @@
     "doctrine/migrations": {
         "version": "3.0.1"
     },
+    "doctrine/mongodb-odm": {
+        "version": "2.1.2"
+    },
+    "doctrine/mongodb-odm-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "1fd8598bf42227a1c8905edd32f640e4c5d15eff"
+        },
+        "files": [
+            "config/packages/doctrine_mongodb.yaml",
+            "config/packages/prod/doctrine_mongodb.yaml",
+            "src/Document/.gitignore"
+        ]
+    },
     "doctrine/orm": {
         "version": "v2.7.3"
     },
@@ -84,6 +101,9 @@
     "egulias/email-validator": {
         "version": "2.1.21"
     },
+    "jean85/pretty-package-versions": {
+        "version": "1.5.1"
+    },
     "lcobucci/jwt": {
         "version": "3.3.3"
     },
@@ -98,6 +118,9 @@
         "files": [
             "config/packages/lexik_jwt_authentication.yaml"
         ]
+    },
+    "mongodb/mongodb": {
+        "version": "1.7.0"
     },
     "namshi/jose": {
         "version": "7.2.3"
@@ -230,6 +253,9 @@
         ]
     },
     "symfony/mime": {
+        "version": "v5.1.5"
+    },
+    "symfony/options-resolver": {
         "version": "v5.1.5"
     },
     "symfony/orm-pack": {
