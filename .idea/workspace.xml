@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df6e2f97-cdcd-46b8-8e6f-289c40465ba4" name="Default Changelist" comment="Alteração da exibição da listagem de todos usuários e de um usuário" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1greeKYt877LFxb4nJ9M8k46OWF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/var/www/html/ifuturo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Email" />
+      <recent name="$PROJECT_DIR$/tests/Validator" />
+      <recent name="$PROJECT_DIR$/tests/Service" />
+      <recent name="$PROJECT_DIR$/tests/Repository" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Entity" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/Service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df6e2f97-cdcd-46b8-8e6f-289c40465ba4" name="Default Changelist" comment="" />
+      <created>1598877232832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598877232832</updated>
+      <workItem from="1598877234754" duration="4821000" />
+      <workItem from="1598897467462" duration="8692000" />
+      <workItem from="1598964211736" duration="23346000" />
+      <workItem from="1599052553029" duration="25825000" />
+      <workItem from="1599129213203" duration="29840000" />
+      <workItem from="1599222187740" duration="7816000" />
+      <workItem from="1599567579548" duration="3616000" />
+      <workItem from="1599653138927" duration="338000" />
+      <workItem from="1599740081484" duration="119000" />
+      <workItem from="1599758715073" duration="1027000" />
+      <workItem from="1599766571691" duration="5519000" />
+      <workItem from="1599820425086" duration="4900000" />
+      <workItem from="1599918992170" duration="2380000" />
+      <workItem from="1600023534511" duration="4000" />
+      <workItem from="1600114868430" duration="404000" />
+      <workItem from="1600165176200" duration="1647000" />
+      <workItem from="1600254329307" duration="28959000" />
+      <workItem from="1600343508963" duration="11146000" />
+      <workItem from="1600361256364" duration="6058000" />
+      <workItem from="1600431434646" duration="7042000" />
+      <workItem from="1600597430875" duration="17006000" />
+      <workItem from="1600688759929" duration="21158000" />
+      <workItem from="1600774832870" duration="10133000" />
+      <workItem from="1600864190496" duration="4174000" />
+      <workItem from="1600946082037" duration="2291000" />
+    </task>
+    <task id="LOCAL-00001" summary="Alteração do logout">
+      <created>1599133110525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599133110525</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Novos plugins instalados">
+      <created>1599829522542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599829522542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remoção de Bundle para resetPassword de Symfony Casts">
+      <created>1599829606501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599829606501</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remocao de config em bundle">
+      <created>1599829847568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599829847568</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adicao de bundles em config">
+      <created>1599830177520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599830177520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adicao de classes para reset password">
+      <created>1599830232148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599830232148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alteração do logout" />
+    <MESSAGE value="Novos plugins instalados" />
+    <MESSAGE value="Remoção de Bundle para resetPassword de Symfony Casts" />
+    <MESSAGE value="Remocao de config em bundle" />
+    <MESSAGE value="Adicao de bundles em config" />
+    <MESSAGE value="Adicao de classes para reset password" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicao de classes para reset password" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2654" y="258" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1600352146669">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2654" y="258" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600352146669" />
+    <state x="2556" y="0" width="629" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600704265233">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="636" y="27" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600439159169" />
+    <state x="2556" y="0" width="629" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600704265233" />
+    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600804623996">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600804623996" />
+    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600781725534">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="299" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600436372839" />
+    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600781725534" />
+    <state x="612" y="59" width="892" height="912" key="CommitChangelistDialog2" timestamp="1600969169543">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="612" y="59" width="892" height="912" key="CommitChangelistDialog2/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600969169543" />
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600785380430">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="299" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600432498757" />
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600785380430" />
+    <state x="2530" y="352" width="705" height="373" key="NewPhpClassDialog" timestamp="1600781460420">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="617" y="293" width="705" height="373" key="NewPhpClassDialog/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600441606639" />
+    <state x="2530" y="352" width="705" height="373" key="NewPhpClassDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600781460420" />
+    <state x="2603" y="213" width="544" height="652" key="RollbackChangesDialog" timestamp="1599770637411">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2603" y="213" width="544" height="652" key="RollbackChangesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599770637411" />
+    <state x="2020" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600624743684">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600624743684" />
+    <state x="2020" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599770313695">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599770313695" />
+    <state x="2690" y="408" width="432" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599771106216">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2690" y="408" width="432" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599771106216" />
+    <state x="2584" y="222" width="726" height="578" key="find.popup" timestamp="1600776942364">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2584" y="222" width="726" height="578" key="find.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600776942364" />
+    <state x="2583" y="435" width="583" height="207" key="git4idea.ui.GitResetDialog" timestamp="1599770652924">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2583" y="435" width="583" height="207" key="git4idea.ui.GitResetDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599770652924" />
+    <state x="623" y="244" width="672" height="621" key="search.everywhere.popup" timestamp="1600346065149">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="623" y="244" width="672" height="621" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600346065149" />
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600309172663" />
+    <state x="2672" y="423" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599832466083">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2672" y="423" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599832466083" />
+  </component>
+</project>
