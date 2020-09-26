@@ -14,7 +14,13 @@
 /config/jwt/*.pem
 ###< lexik/jwt-authentication-bundle ###
 
+###> PHP-Storm-Framework ###
 .idea/*
+.idea/php.xml
+.idea/promobit.iml
+.idea/workspace.xml
+###< PHP-Storm-Framework ###
+
 ###> phpunit/phpunit ###
 /phpunit.xml
 .phpunit.result.cache
