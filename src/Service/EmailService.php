@@ -3,7 +3,6 @@
 namespace App\Service;
 
 use App\Repository\UserRepository;
-use App\Service\RequestResponseService;
 use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Email;
