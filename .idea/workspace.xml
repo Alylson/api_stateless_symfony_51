@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df6e2f97-cdcd-46b8-8e6f-289c40465ba4" name="Default Changelist" comment="Alteração da exibição da listagem de todos usuários e de um usuário">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/promobit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promobit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UserService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +208,7 @@
       <workItem from="1600864190496" duration="4174000" />
       <workItem from="1600946082037" duration="5625000" />
       <workItem from="1601035199323" duration="4388000" />
-      <workItem from="1601122601616" duration="5710000" />
+      <workItem from="1601122601616" duration="13851000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração do logout">
       <created>1599133110525</created>
@@ -281,11 +281,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600804623996" />
-    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600781725534">
+    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601155914156">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="693" y="299" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600436372839" />
-    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600781725534" />
+    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601155914156" />
     <state x="612" y="59" width="892" height="912" key="CommitChangelistDialog2" timestamp="1600969169543">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
@@ -324,11 +324,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2583" y="435" width="583" height="207" key="git4idea.ui.GitResetDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599770652924" />
-    <state x="623" y="244" width="672" height="621" key="search.everywhere.popup" timestamp="1600346065149">
-      <screen x="0" y="27" width="1920" height="988" />
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1601154270920">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="244" width="672" height="621" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600346065149" />
-    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600309172663" />
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601154270920" />
     <state x="2672" y="423" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599832466083">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

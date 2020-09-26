@@ -10,6 +10,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use App\Service\RequestResponseService;
 
 class UserService
 {
@@ -26,7 +27,18 @@ class UserService
 
     public function getAllUser()
     {
-        return $this->userRepository->findAll();
+        $getUsers = $this->userRepository->findAll();
+
+        $users = [];
+        foreach ($getUsers as $key => $value) {
+            $users[$key]['id'] = $value->getId();
+            $users[$key]['name'] = $value->getName();
+            $users[$key]['email'] = $value->getEmail();
+            $users[$key]['roles'] = $value->getRoles();
+            $users[$key]['password'] = $value->getPassword();
+        }
+
+        return $users;
     }
 
     public function addUser($request)
@@ -65,9 +77,22 @@ class UserService
     public function getUser($id)
     {
         try {
-            $data = $this->userRepository->find($id);
+            $getUsers = $this->userRepository->find($id);
+
+            if($getUsers == false) {
+                throw new \Exception();
+            }
+
+            $data = [];
+
+            $data[0]['id'] = $getUsers->getId();
+            $data[0]['name'] = $getUsers->getName();
+            $data[0]['email'] = $getUsers->getEmail();
+            $data[0]['roles'] = $getUsers->getRoles();
+            $data[0]['password'] = $getUsers->getPassword();
+
         } catch (\Exception $e) {
-            return [
+            return $data = [
                 'status' => 404,
                 'errors' => "Usuário não encontrado",
             ];
@@ -90,9 +115,6 @@ class UserService
 
             $request = $this->transformJsonBody($request);
 
-            /*if (!$request || !$request->request->get('name') || !$request->request->get('email') || !$request->get('roles') || !$request->request->get('password')){
-                throw new \Exception();
-            }*/
             $notEmptyValidator = new NotEmptyValidator($request->get('name'), $request->get('email'), $request->request->get('roles'), $request->request->get('password'));
             $value = $notEmptyValidator->isValid();
 
