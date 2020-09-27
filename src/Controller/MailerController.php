@@ -27,6 +27,7 @@ class MailerController extends AbstractController
      */
     public function sendEmail(Request $request)
     {
+        var_dump('teste');exit;
         $sendEmail = $this->emailService->sendEmail($request);
 
         return $this->json($sendEmail);
