@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df6e2f97-cdcd-46b8-8e6f-289c40465ba4" name="Default Changelist" comment="Alteração da exibição da listagem de todos usuários e de um usuário">
-      <change afterPath="$PROJECT_DIR$/config/packages/reset_password.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200927223154.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200928125654.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200928181042.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/ResetPasswordRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ResetPasswordRequestRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ResetPasswordService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/promobit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promobit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200926133206.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200926133206.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200926133722.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200926133722.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MailerController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Document/ResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Document/ResetPassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/ResetPassword.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ResetPasswordRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/EmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/RequestResponseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/RequestResponseService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Repository/UserRepositoryStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Repository/UserRepositoryStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Service/AuthServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/AuthServiceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Service/UserServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/UserServiceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Validator/NotEmptyValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Validator/NotEmptyValidatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200929142226.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200929142226.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +214,7 @@
       <workItem from="1601214109194" duration="17787000" />
       <workItem from="1601291412375" duration="15747000" />
       <workItem from="1601318134610" duration="9491000" />
-      <workItem from="1601380909393" duration="601000" />
+      <workItem from="1601380909393" duration="7149000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração do logout">
       <created>1599133110525</created>
