@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df6e2f97-cdcd-46b8-8e6f-289c40465ba4" name="Default Changelist" comment="Alteração da exibição da listagem de todos usuários e de um usuário">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200928193331.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200928193331.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +212,7 @@
       <workItem from="1601214109194" duration="17787000" />
       <workItem from="1601291412375" duration="15747000" />
       <workItem from="1601318134610" duration="9491000" />
-      <workItem from="1601380909393" duration="1857000" />
+      <workItem from="1601380909393" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração do logout">
       <created>1599133110525</created>
