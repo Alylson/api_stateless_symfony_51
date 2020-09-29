@@ -2,12 +2,12 @@
 
 namespace App\Document;
 
-use App\Repository\ResetPasswordRepository;
+use App\Repository\ResetPasswordRequestRepository;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
 use Doctrine\ODM\MongoDB\Mapping\Annotations\Id;
 
 /**
- * @MongoDB\Document(repositoryClass=ResetPasswordRepository::class)
+ * @MongoDB\Document(repositoryClass=ResetPasswordRequestRepository::class)
  */
 class ResetPassword
 {
