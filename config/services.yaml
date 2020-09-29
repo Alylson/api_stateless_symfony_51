@@ -38,7 +38,7 @@ services:
 
     # register a new handler service for MongoDbSessionHandler and pass it the MongoDB connection as argument
     # https://symfony.com/doc/current/session/database.html#store-sessions-in-a-nosql-database-mongodb
-    Symfony\Component\HttpFoundation\Session\Storage\Handler\MongoDbSessionHandler:
-        arguments:
-            - '@doctrine_mongodb.odm.default_connection'
-            - { id_field: '_guid', 'expiry_field': 'eol' }
+    #    Symfony\Component\HttpFoundation\Session\Storage\Handler\MongoDbSessionHandler:
+    #        arguments:
+    #            - '@doctrine_mongodb.odm.default_connection'
+    #            - { id_field: '_guid', 'expiry_field': 'eol' }

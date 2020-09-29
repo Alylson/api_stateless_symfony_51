@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df6e2f97-cdcd-46b8-8e6f-289c40465ba4" name="Default Changelist" comment="Alteração da exibição da listagem de todos usuários e de um usuário">
+      <change afterPath="$PROJECT_DIR$/config/packages/reset_password.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200927223154.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200928125654.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200928181042.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/ResetPasswordRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ResetPasswordRequestRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/ResetPasswordService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/promobit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promobit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MailerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MailerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200926133206.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200926133206.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200926133722.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200926133722.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MailerController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Document/ResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Document/ResetPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/ResetPassword.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ResetPasswordRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/EmailService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/RequestResponseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/RequestResponseService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Repository/UserRepositoryStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Repository/UserRepositoryStub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Service/AuthServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/AuthServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Service/UserServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/UserServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Validator/NotEmptyValidatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Validator/NotEmptyValidatorTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +166,8 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
       <path value="$PROJECT_DIR$/vendor/symfony/google-mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfonycasts/reset-password-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1greeKYt877LFxb4nJ9M8k46OWF" />
@@ -147,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/templates/reset_password" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -208,7 +241,10 @@
       <workItem from="1600946082037" duration="5625000" />
       <workItem from="1601035199323" duration="4388000" />
       <workItem from="1601122601616" duration="14222000" />
-      <workItem from="1601214109194" duration="3680000" />
+      <workItem from="1601214109194" duration="17787000" />
+      <workItem from="1601291412375" duration="15747000" />
+      <workItem from="1601318134610" duration="9491000" />
+      <workItem from="1601380909393" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração do logout">
       <created>1599133110525</created>
@@ -268,38 +304,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adicao de classes para reset password" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2654" y="258" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1600352146669">
+    <state x="2654" y="258" width="451" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1601245799115">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2654" y="258" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600352146669" />
-    <state x="2556" y="0" width="629" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600704265233">
+    <state x="2654" y="258" width="451" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601245799115" />
+    <state x="2556" y="0" width="629" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601317581984">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="636" y="27" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600439159169" />
-    <state x="2556" y="0" width="629" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600704265233" />
-    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600804623996">
+    <state x="2556" y="0" width="629" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601317581984" />
+    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601318367432">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600804623996" />
-    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601155914156">
+    <state x="2613" y="288" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601318367432" />
+    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601326720886">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="693" y="299" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600436372839" />
-    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601155914156" />
+    <state x="2613" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601326720886" />
     <state x="612" y="59" width="892" height="912" key="CommitChangelistDialog2" timestamp="1600969169543">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="612" y="59" width="892" height="912" key="CommitChangelistDialog2/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600969169543" />
-    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600785380430">
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601301905512">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="299" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600432498757" />
-    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600785380430" />
-    <state x="2530" y="352" width="705" height="373" key="NewPhpClassDialog" timestamp="1601214484650">
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601301905512" />
+    <state x="2530" y="352" width="705" height="373" key="NewPhpClassDialog" timestamp="1601232249441">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="617" y="293" width="705" height="373" key="NewPhpClassDialog/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600441606639" />
-    <state x="2530" y="352" width="705" height="373" key="NewPhpClassDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601214484650" />
+    <state x="2530" y="352" width="705" height="373" key="NewPhpClassDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601232249441" />
+    <state x="2675" y="464" width="399" height="149" key="NewPhpFileDialog" timestamp="1601327915477">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2675" y="464" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601327915477" />
     <state x="2603" y="213" width="544" height="652" key="RollbackChangesDialog" timestamp="1599770637411">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -316,22 +356,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2690" y="408" width="432" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601142848761" />
-    <state x="2584" y="222" width="726" height="578" key="find.popup" timestamp="1600972314343">
+    <state x="2584" y="222" width="726" height="578" key="find.popup" timestamp="1601318289351">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2584" y="222" width="726" height="578" key="find.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600972314343" />
+    <state x="2584" y="222" width="726" height="578" key="find.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601318289350" />
     <state x="2583" y="435" width="583" height="207" key="git4idea.ui.GitResetDialog" timestamp="1599770652924">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2583" y="435" width="583" height="207" key="git4idea.ui.GitResetDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599770652924" />
-    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1601154270920">
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1601324355175">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="244" width="672" height="621" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1600346065149" />
-    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601154270920" />
-    <state x="2672" y="423" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599832466083">
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601324355175" />
+    <state x="2672" y="423" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601233732516">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2672" y="423" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599832466083" />
+    <state x="2672" y="423" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601233732516" />
   </component>
 </project>

@@ -26,16 +26,12 @@ class UserRepository extends ServiceEntityRepository
     public function getEmail($email)
     {
         $userEmail = $this->createQueryBuilder('u')
-            ->select('u.email')
+            ->select('u.email','u.id')
             ->where('u.email = :email')
             ->setParameter('email',$email)
             ->getQuery()
             ->getResult();
 
-        if (!$userEmail[0]['email']) {
-            return false;
-        }
-
-        return true;
+        return $userEmail[0];
     }
 }
