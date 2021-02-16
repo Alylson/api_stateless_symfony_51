@@ -66,7 +66,7 @@ será necessário utilizar a porta 8086 para o correto funcionamento, caso não 
             "name": "admin",
             "email":"admin@admin.com",
             "roles":"admin",
-            "password":"promobit"
+            "password":"admin123"
         }
     
 ###### Login
@@ -77,7 +77,7 @@ será necessário utilizar a porta 8086 para o correto funcionamento, caso não 
     Ex:
         {
             "email":"admin@admin.com",
-            "password":"promobit"
+            "password":"admin123"
         }
 
 ###### Listar Usuários
